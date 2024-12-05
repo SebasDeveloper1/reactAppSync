@@ -1,4 +1,3 @@
-import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import Button from "../../atoms/Button/Button";
 import { Link } from "react-router";

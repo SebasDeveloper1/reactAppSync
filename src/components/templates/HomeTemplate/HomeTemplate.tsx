@@ -1,4 +1,3 @@
-import React from "react";
 import { useQuery, useMutation } from "@apollo/client";
 import { LIST_USERS, DELETE_USER } from "../../../data/graphql/queries";
 import { User } from "../../../models/user.model";
