@@ -17,12 +17,12 @@ interface ValidationMessages {
 }
 
 interface UserDataValues {
-  name?: string;
-  email?: string;
-  age?: number;
+  name: string;
+  email: string;
+  age: number;
   address?: string;
-  identificationNumber?: string;
-  identificationType?: string;
+  identificationNumber: string;
+  identificationType: string;
 }
 
 interface ValidationErrors {

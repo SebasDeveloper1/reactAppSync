@@ -117,7 +117,7 @@ export default function UserForm({ initialValues, onSubmit, validate }) {
             </option>
             {Object.entries(IdentificationTypes).map(([key, value]) => (
               <option key={key} value={value} className="uppercase">
-                {key.charAt(0).toUpperCase() + key.slice(1).toLowerCase()}
+                {value}
               </option>
             ))}
           </Field>
